@@ -2,7 +2,8 @@
 RESPONSIVE
 ***************************/
 
-@media screen and (min-width: 992px) {
+/* TABLET */
+@media screen and (min-width: 768px) {
     /* UTILITIES */
     .text-center-pc {
         text-align: center;
@@ -16,6 +17,17 @@ RESPONSIVE
     .header .row .btn a {
         color: #3a8aff;
     }
+    
+    /* MAIN */
+    /* Logo's */
+    .logos img {
+        width: calc(100% / 6 - 10px)
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+ 
     
     /* HEADER */
     .hidden {

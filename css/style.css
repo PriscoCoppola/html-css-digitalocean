@@ -7,6 +7,11 @@ body {
     font-size: 16px;
 }
 
+/* UTILITIES */
+.bg-grey {
+    background-color: #f3f5f9;
+}
+
 /* HEADER */
 .header {
     line-height: 60px;
@@ -87,5 +92,23 @@ body {
     position: absolute;
     left: 10px;
     bottom: 25px;
+}
+
+/* Logo's */
+.logos {
+    padding: 30px 0 20px;
+}
+
+.logos .image {
+    padding: 40px 0;
+}
+
+.logos img {
+    width: calc(100% / 2 - 10px);
+    padding: 0 15px;
+}
+
+.text-pc {
+    color: #6f7b97;
 }
 
