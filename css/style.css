@@ -112,3 +112,24 @@ body {
     color: #6f7b97;
 }
 
+/* Deploy */
+.deploy {
+    padding: 70px 0;
+}
+
+.deploy .row.primary {
+    padding-top: 65px;
+}
+
+.deploy ul {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    line-height: 45px;
+    list-style: none;
+    border-left: 1px solid #5c6a88;
+}
+
+.deploy p,
+.deploy ul {
+    color: #5c6a88;
+}
