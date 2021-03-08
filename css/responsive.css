@@ -3,6 +3,20 @@ RESPONSIVE
 ***************************/
 
 @media screen and (min-width: 992px) {
+    /* UTILITIES */
+    .text-center-pc {
+        text-align: center;
+    }
+
+    /* Button */
+    .header .row .btn {
+        border: 1px solid #3a8aff;
+    }
+
+    .header .row .btn a {
+        color: #3a8aff;
+    }
+    
     /* HEADER */
     .hidden {
         opacity: 1;
@@ -16,6 +30,10 @@ RESPONSIVE
         display: none;
     }
 
+    .header .row ul {
+        padding-left: 0;
+    }
+
     .header .row li {
         display: inline-block;
         padding-right: 15px;
@@ -25,14 +43,6 @@ RESPONSIVE
     .header .row li a {
         text-decoration: none;
         color: #333;
-    }
-
-    .header .row .btn {
-        border: 1px solid #3a8aff;
-    }
-
-    .header .row .btn a {
-        color: #3a8aff;
     }
 
     .header .row ul {
