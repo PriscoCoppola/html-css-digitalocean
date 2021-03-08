@@ -28,3 +28,64 @@ body {
 .header .row ul {
     display: none;
 }
+
+/* MAIN */
+/* Hero */
+.hero {
+    padding: 50px 0;
+    color: #bbccfe;
+    background-image: url(../img/bg-banner-home.jpg);
+}
+
+.hero h1 {
+    padding-top: 20px;
+    font-size: 45px;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.hero .background {
+    padding: 30px 15px;
+    color: #333;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.hero button {
+    width: 100%;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
+}
+
+.hero .background form {
+    position: relative;
+}
+
+.btn-primary {
+    background-color: #579aff;
+    border-color: transparent;
+}
+
+.btn-default {
+    margin-top:10px;
+    margin-bottom: 20px;
+    border-color: transparent;
+}
+
+.hero .background :nth-child(2) {
+    color: #006aff;
+}
+
+.hero .background p {
+    font-size: 13px;
+}
+
+.hero .background img {
+    width: 20px;
+    position: absolute;
+    left: 10px;
+    bottom: 25px;
+}
+
