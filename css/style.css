@@ -1,0 +1,30 @@
+/***************************** 
+MOBILE FIRST
+*****************************/
+
+/* GENERAL */
+body {
+    font-size: 16px;
+}
+
+/* HEADER */
+.header {
+    line-height: 60px;
+}
+
+.header .row div:last-child {
+    display: none;
+}
+
+.header .row img {
+    width: 165px;
+}
+
+.header .row .fa-bars {
+    font-size: 20px;
+    color: #3a8aff;
+}
+
+.header .row ul {
+    display: none;
+}

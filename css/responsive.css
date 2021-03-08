@@ -1,0 +1,41 @@
+/***************************
+RESPONSIVE
+***************************/
+
+@media screen and (min-width: 992px) {
+    /* HEADER */
+    .hidden {
+        opacity: 1;
+    }
+
+    .header .row div:last-child {
+        display: block;
+    }
+
+    .header .row .fa-bars {
+        display: none;
+    }
+
+    .header .row li {
+        display: inline-block;
+        padding-right: 15px;
+        list-style: none;
+    }
+
+    .header .row li a {
+        text-decoration: none;
+        color: #333;
+    }
+
+    .header .row .btn {
+        border: 1px solid #3a8aff;
+    }
+
+    .header .row .btn a {
+        color: #3a8aff;
+    }
+
+    .header .row ul {
+        display: inline-block;
+    }
+}
