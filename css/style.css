@@ -12,6 +12,19 @@ body {
     background-color: #f3f5f9;
 }
 
+.small-text {
+    font-size: 13px;
+}
+
+.fz-20 {
+    font-size: 20px;
+}
+
+.circle {
+    font-size: 10px;
+    color: #006aff;
+}
+
 /* HEADER */
 .header {
     line-height: 60px;
@@ -48,10 +61,6 @@ body {
     color: #fff;
 }
 
-.hero p {
-    font-size: 20px;
-}
-
 .hero .background {
     padding: 30px 15px;
     color: #333;
@@ -83,9 +92,6 @@ body {
     color: #006aff;
 }
 
-.hero .background p {
-    font-size: 13px;
-}
 
 .hero .background img {
     width: 20px;
@@ -133,3 +139,22 @@ body {
 .deploy ul {
     color: #5c6a88;
 }
+
+/* Designed */
+.designed {
+    padding: 70px 0;
+}
+
+.designed p:not(.small-text) {
+    padding: 25px 0 50px;
+}
+
+.designed p.small-text {
+    padding: 20px 0 60px;
+}
+
+.designed img {
+    width: 50%;
+}
+
+
