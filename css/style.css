@@ -12,6 +12,10 @@ body {
     background-color: #f3f5f9;
 }
 
+.bg-gradient {
+    background: linear-gradient(#0048c5, #001e99);
+}
+
 .small-text {
     font-size: 13px;
 }
@@ -173,7 +177,6 @@ body {
 /* Service */
 .service {
     padding: 60px 0;
-    background-color: #0041be;
     color: #fff;
 }
 
@@ -192,4 +195,33 @@ body {
 
 .service a:focus, a:hover {
     color: #00bfcd;
+}
+
+/* Development */
+.development {
+    padding: 70px 0;
+}
+
+.development h2 {
+    padding-bottom: 100px;
+}
+
+.development .box {
+    display: inline-block;
+    width: 50%;
+    padding: 65px 0;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.development p {
+    margin: 20px 0 10px;
+}
+
+.development .pd-pc {
+    padding-bottom: 20px;
+}
+
+.development .circle {
+    padding-top: 30px;
 }
