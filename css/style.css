@@ -214,6 +214,10 @@ body {
     border-radius: 5px;
 }
 
+.development img {
+    max-width: 100%;
+}
+
 .development p {
     margin: 20px 0 10px;
 }
