@@ -157,4 +157,16 @@ body {
     width: 50%;
 }
 
+/* Business */
+.business {
+    padding: 70px 0;
+}
+
+.business h2 {
+    padding-bottom: 30px;
+}
+
+.business img {
+    padding-bottom: 10px;
+}
 
