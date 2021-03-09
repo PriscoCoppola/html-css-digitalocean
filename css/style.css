@@ -225,3 +225,20 @@ body {
 .development .circle {
     padding-top: 30px;
 }
+
+/* Started */
+.started {
+    padding: 70px 0 50px;
+    color: #fff;
+}
+
+.started h2 {
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.started .btn-pc {
+    color: #006aff;
+    background-color: #fff;
+    border: 1px solid transparent;
+}
