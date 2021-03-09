@@ -170,3 +170,26 @@ body {
     padding-bottom: 10px;
 }
 
+/* Service */
+.service {
+    padding: 60px 0;
+    background-color: #0041be;
+    color: #fff;
+}
+
+.service h2 {
+    padding-bottom: 10px
+    
+}
+
+.service .top-pc td {
+    border-top: 0;
+}
+
+.service a {
+    color: #00bfcd;
+}
+
+.service a:focus, a:hover {
+    color: #00bfcd;
+}
