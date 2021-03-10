@@ -5,10 +5,6 @@ RESPONSIVE
 /* TABLET */
 @media screen and (min-width: 768px) {
     /* UTILITIES */
-    .text-center-pc {
-        text-align: center;
-    }
-
     /* Button */
     .header .row .btn {
         border: 1px solid #3a8aff;
@@ -20,19 +16,17 @@ RESPONSIVE
 
     /* MAIN */
     /* Logo's */
+    .logos li {
+        display: inline-block;
+        width: calc(100% / 6 - 10px);
+        padding: 0 10px;
+    }
+
     .logos img {
-        width: calc(100% / 6 - 10px)
+        width: 100%;
     }
 
     /* Deploy */
-    .deploy .cluster {
-        padding-bottom: 20px;
-    }
-    
-    .deploy .optimized {
-        padding-bottom: 43px;
-    }
-
     .deploy ul {
         margin-bottom: 0;
     }
@@ -54,11 +48,44 @@ RESPONSIVE
         font-size: 35px;
         padding-left: 20px;
     }
+
+    /* Development */
+    .development .box {
+        position: relative;
+    }
+
+    .development .box::before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f053";
+        font-size: 35px;
+        padding-right: 20px;
+        color: #6f7b97;
+        position: absolute;
+        top: 50%;
+        left: -40px;
+        transform: translateY(-50%);
+    }
+
+    .development .box::after {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f054";
+        font-size: 35px;
+        padding-left: 20px;
+        position: absolute;
+        top: 50%;
+        right: -40px;
+        transform: translateY(-50%);
+    }
 }
 
 /* DESKTOP */
 @media screen and (min-width: 992px) {
- 
+    /* UTILITIES */
+    .text-center-pc {
+        text-align: center;
+    }
     
     /* HEADER */
     .hidden {

@@ -12,6 +12,10 @@ body {
     background-color: #f3f5f9;
 }
 
+.bg-blue {
+    background-color: #031c4e;
+}
+
 .bg-gradient {
     background: linear-gradient(#0048c5, #001e99);
 }
@@ -51,6 +55,15 @@ body {
     display: none;
 }
 
+.header .row li:hover a,
+.header .row li:hover i {
+    color:  #3a8aff;
+}
+
+.header .row ul {
+    margin-bottom: 0;
+}
+
 /* MAIN */
 /* Hero */
 .hero {
@@ -86,7 +99,18 @@ body {
     border-color: transparent;
 }
 
+.btn-primary:hover {
+    background-color: #2e7ff9;
+    border-color: transparent;
+}
+
 .btn-default {
+    margin-top:10px;
+    margin-bottom: 20px;
+    border-color: transparent;
+}
+
+.btn-default:hover {
     margin-top:10px;
     margin-bottom: 20px;
     border-color: transparent;
@@ -113,9 +137,15 @@ body {
     padding: 40px 0;
 }
 
-.logos img {
+.logos li {
+    display: inline-block;
     width: calc(100% / 2 - 10px);
-    padding: 0 15px;
+    line-height: 135px;
+    border-bottom: 5px solid transparent;
+}
+
+.logos li:hover {
+    border-bottom: 5px solid #3a8aff;
 }
 
 .text-pc {
@@ -142,6 +172,15 @@ body {
 .deploy p,
 .deploy ul {
     color: #5c6a88;
+}
+
+.deploy a {
+    color: #333;
+}
+
+.deploy a:hover {
+    color: #3a8aff;
+    text-decoration: none;
 }
 
 /* Designed */
@@ -171,7 +210,7 @@ body {
 }
 
 .business img {
-    padding-bottom: 10px;
+    padding: 20px 0 10px;
 }
 
 /* Service */
@@ -245,4 +284,57 @@ body {
     color: #006aff;
     background-color: #fff;
     border: 1px solid transparent;
+    text-decoration: none;
+}
+
+.started .btn.btn-pc:hover {
+    background-color: #006aff;
+}
+
+.started .btn.btn-pc:hover a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* FOOTER */
+.footer {
+    padding: 60px 0;
+    color: #828ca3;
+}
+
+.footer a {
+    color: #828ca3;
+}
+
+.footer i {
+    font-size: 24px;
+}
+
+.footer img {
+    padding-bottom: 10px;
+}
+
+.footer .list-1 {
+    padding: 15px 0;
+}
+
+.footer .list-2 li a {
+    line-height: 32px;
+}
+
+.footer .text-grey {
+    color: #5a6887;
+}
+
+.footer .text-white {
+    color: #fff;
+}
+
+.footer .list-1 li:hover i {
+    color: #3a8aff;
+}
+
+.footer .list-2 li:hover a {
+    color: #3a8aff;
+    text-decoration: none;
 }
