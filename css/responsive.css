@@ -118,4 +118,24 @@ RESPONSIVE
     .header .row ul {
         display: inline-block;
     }
+
+    /* BONUS */
+    /* Help Shark */
+    .shark {
+        bottom: 40px;
+        left: auto;
+        right: 40px;
+    }
+
+    .badge {
+        bottom: 85px;
+        left: auto;
+        right: 27px;
+    }
+
+    .help {
+        bottom: 40px;
+        left: auto;
+        right: 120px;
+    }
 }

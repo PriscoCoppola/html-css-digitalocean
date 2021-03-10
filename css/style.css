@@ -338,3 +338,60 @@ body {
     color: #3a8aff;
     text-decoration: none;
 }
+
+/* BONUS */
+/* Help Shark */
+.shark {
+    width: 60px;
+    height: 60px;
+    background-color: #006aff;
+    border-radius: 5px;
+    z-index: 10;
+    position: fixed;
+    bottom: 140px;
+    left: 40px;
+    right: auto;
+}
+
+.shark img {
+    padding-top: 7px;
+}
+
+.badge {
+    width: 30px;
+    height: 30px;
+    line-height: 18px;
+    background-color: red;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    z-index: 11;
+    position: fixed;
+    bottom: 185px;
+    left: 85px;
+    right: auto;
+}
+
+.help {
+    width: 350px;
+    height: 65px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, .5));
+    z-index: 10;
+    position: fixed;
+    bottom: 55px;
+    left: 40px;
+    right: auto;
+}
+
+.help .square {
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    rotate: 45deg;
+    z-index: 10;
+    position: fixed;
+    bottom: 15px;
+    left: 342px;
+}
